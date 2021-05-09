@@ -14,3 +14,11 @@ The second reader writer problem involved giving priority to readers. Thus, pote
 ### Third Readers-Writers Problem
 ***Starve Free Solution***
 > *no thread shall be allowed to strave*
+
+## Use
+
+### Linux or C solution
+`g++ stravefree.c -lpthread -o c_output && ./c_output && rm c_output`
+
+### C++ solution
+`g++ stravefree.c -pthread -o cpp_output -std=c++11 && ./cpp_output && rm cpp_output`
